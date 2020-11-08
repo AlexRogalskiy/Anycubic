@@ -13,7 +13,23 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 # timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-teaser: /assets/images/anycubic-mega-x.jpg
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/raffaello86"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://rnext.it"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rbonghi"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/raffaello86"
+
+teaser: /assets/images/anycubic-mega-s.jpg
 
 collections:
   i3_mega:
@@ -42,6 +58,9 @@ defaults:
 include:
   - .htaccess
   - _pages
+exclude:
+  - README.md
+  - LICENSE
 
 # Plugins (previously gems:)
 plugins:

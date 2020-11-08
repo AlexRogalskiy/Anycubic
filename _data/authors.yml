@@ -17,3 +17,6 @@ Raffaello Bonghi:
     - label: "Github"
       icon: "fab fa-fw fa-github-square"
       url: "https://github.com/rbonghi"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/raffaello86"

@@ -7,7 +7,7 @@ header:
 intro: 
   - excerpt: 'Benvenuti nella pagina di tips and tricks. Come montare la stampante, modificarla e calibrarla al meglio.'
 feature_row:
-  - image_path: assets/images/anycubic-mega-s.jpg
+  - image_path: /assets/images/anycubic-mega-s.jpg
     alt: "Anycubic I3 Mega S"
     title: "Setup e configurazione"
     excerpt: "Dall'unboxing alla prima stampa"
