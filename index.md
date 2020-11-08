@@ -11,12 +11,12 @@ feature_row:
     alt: "Anycubic I3 Mega S"
     title: "Setup e configurazione"
     excerpt: "Dall'unboxing alla prima stampa"
-    url: "i3_mega"
-    btn_label: "Read More"
+    url: "#"
+    btn_label: "Under construction"
     btn_class: "btn--primary"
   - image_path: /assets/images/anycubic-mega-hack.jpg
     alt: "Anycubic I3 Mega hacked"
-    title: "Haking"
+    title: "Hacking"
     excerpt: "Tutte le guide per modificare l'Anycubic da stampante entry level a stampante semi professionale"
     url: "i3_mega"
     btn_label: "Read More"
@@ -25,8 +25,8 @@ feature_row:
     alt: "Octoprint"
     title: "Octoprint"
     excerpt: "Installare e configurare Octoprint con i migliori plugins"
-    url: "#"
-    btn_label: "Under construction"
+    url: "octoprint"
+    btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/telegram.png
