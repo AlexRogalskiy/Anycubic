@@ -1,1 +1,28 @@
-theme: jekyll-theme-architect
+theme: minimal-mistakes-jekyll
+
+minimal_mistakes_skin: "air"
+
+repository: "rbonghi/Anycubic"
+
+teaser: /assets/images/anycubic-mega-x.jpg
+
+collections:
+  i3_mega:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _i3_mega
+  - scope:
+      path: ""
+      type: i3_mega
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      read_time: true
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
