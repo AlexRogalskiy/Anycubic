@@ -21,23 +21,17 @@ Raffaello Bonghi:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/raffaello86"
       
-      Daniel Ruffato:
+Daniel Ruffato:
   name        : "Daniel Ruffato"
-  bio         : "Passion Robotics. Working in Robotics & AI. Ah Yes, in my spare time I work in robotics. Ph.D. in Robotics and automation engineer"
+  bio         : "Audiophile, robot maker, plant farmer, drone pilot, snowboarder and mechatronic student. In simple words: a '98 self-made guy in love with his Renault youngtime"
   avatar      : "/assets/images/daniel.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:raffaello@rnext.it"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://rnext.it"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/raffaello86"
+      url: "mailto:ruffatodaniel@gmail.com"
     - label: "Github"
       icon: "fab fa-fw fa-github-square"
-      url: "https://github.com/rbonghi"
+      url: "https://github.com/DrFiamma"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dr_fiamma"
