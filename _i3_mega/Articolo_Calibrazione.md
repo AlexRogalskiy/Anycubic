@@ -29,7 +29,9 @@ Calibrazione software:
 Punto 1- Pre-livellamento del piatto
 Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto al telaietto nero a cui è aggianciato. Lo dovrai fare utilizzando un calibro (digitale o analogico vanno entrambi benissimo) e misurando la distanza tra piatto e telaietto. Per farlo basta posizionare i becchi del calibro in modo che poggino uno sulla superficie superiore del piatto e l'altro sulla superficie inferiore del telaietto, a "morsa" diciamo. Mi raccomando! Presta attenzione a non scalfire la superficie trattata "Ultrabase" del piatto.
 *foto calibro su piatto*
-![titolo_immagine](/assets/docs/calibrazione/455906238_32732.jpg)
+
+{% include figure image_path="/assets/docs/calibrazione/455906238_32732.jpg" alt="titolo_immagine" caption="titolo_immagine" %}
+
 Agendo quindi sulla manopola dovrai cercare di portare la distanza a circa 23mm ma se hai installato 4 molle afermarket la misura può differire. Regolato il primo angolo si passa al suo opposto (a croce) e si effettua la regolazione sempre portandolo alla stessa distanza, e cosi per i restanti due angoli. Fatto ciò il tuo piatto sarà approssimativamente calibrato, non ancora perfettamente, ma quanto basta per il momento.
 n.b. se ti venisse il dubbio che il telaietto nero che sorregge il piatto non sia molto dritto è possibile rimediare effettuando la misurazione con una distanza assoluta, cioè poggiando la testa del calibro sulla base della stampante invece che poggiando uno dei due becchi sulla parte inferiore del telaietto. In questo caso la misura consigliata aumenta e non è più 23mm ma 34mm.
 *foto calibro sulla base*
