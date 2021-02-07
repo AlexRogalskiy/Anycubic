@@ -8,12 +8,10 @@ galleria_prova:
     image_path: /assets/docs/acalibrazione/455707901_382556.jpg
     alt: "testo_A"
     title: "testo_A"
-    
   - url: /assets/docs/calibrazione/455816302_152202.jpg
     image_path: /assets/docs/calibrazione/455816302_152202.jpg
     alt: "testo_B"
     title: "testo_B"
-
 ---
 La procedura di calibrazione sia hardware che software della Anycubic i3 mega è un punto cruciale della messa a punto per ottenere ottime stampe.
 Per eseguirla è necessario armarsi di moolta pazienza, quindi specialmente se sei alle prime armi preparati una tazza di tè e biscotti (sconsigliata la caffeina durante queste delicate procedure) e prenditi il pomeriggio libero (alla fine converrai che è più il tempo di leggere che non il fare :D ).
