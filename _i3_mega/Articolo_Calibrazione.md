@@ -2,6 +2,18 @@
 title: "Calibrazione Stampante 3D"
 excerpt: "Come calibrare la stampante"
 author: "Daniel Ruffato"
+
+galleria_prova:
+  - url: /assets/docs/calibrazione/455707901_382556.jpg
+    image_path: /assets/docs/acalibrazione/455707901_382556.jpg
+    alt: "testo_A"
+    title: "testo_A"
+    
+  - url: /assets/docs/calibrazione/455816302_152202.jpg
+    image_path: /assets/docs/calibrazione/455816302_152202.jpg
+    alt: "testo_B"
+    title: "testo_B"
+
 ---
 La procedura di calibrazione sia hardware che software della Anycubic i3 mega è un punto cruciale della messa a punto per ottenere ottime stampe.
 Per eseguirla è necessario armarsi di moolta pazienza, quindi specialmente se sei alle prime armi preparati una tazza di tè e biscotti (sconsigliata la caffeina durante queste delicate procedure) e prenditi il pomeriggio libero (alla fine converrai che è più il tempo di leggere che non il fare :D ).
@@ -35,6 +47,8 @@ Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto a
 Agendo quindi sulla manopola dovrai cercare di portare la distanza a circa 23mm ma se hai installato 4 molle afermarket la misura può differire. Regolato il primo angolo si passa al suo opposto (a croce) e si effettua la regolazione sempre portandolo alla stessa distanza, e cosi per i restanti due angoli. Fatto ciò il tuo piatto sarà approssimativamente calibrato, non ancora perfettamente, ma quanto basta per il momento.
 n.b. se ti venisse il dubbio che il telaietto nero che sorregge il piatto non sia molto dritto è possibile rimediare effettuando la misurazione con una distanza assoluta, cioè poggiando la testa del calibro sulla base della stampante invece che poggiando uno dei due becchi sulla parte inferiore del telaietto. In questo caso la misura consigliata aumenta e non è più 23mm ma 34mm.
 *foto calibro sulla base*
+
+{% include gallery id="galleria_prova" caption="titolo_galleria" %}
 
 Punto 2- Allineamento orizzontale asse Z
 Questo è per certo la fase di calibrazione hardware più critica, ed al tempo stesso che si riflette maggiormente sulle stampe se non eseguita come si deve. Farlo nel modo adeguato ti risparmierà un sacco di grattacapi per cui non aver fretta.
