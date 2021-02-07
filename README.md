@@ -14,5 +14,5 @@ bundle exec jekyll serve --livereload
 
 ### Theme reference
 
-https://mmistakes.github.io/minimal-mistakes/
-https://github.com/mmistakes/mm-github-pages-starter
+* https://mmistakes.github.io/minimal-mistakes/
+* https://github.com/mmistakes/mm-github-pages-starter
