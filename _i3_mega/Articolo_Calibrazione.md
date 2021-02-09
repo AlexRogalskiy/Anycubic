@@ -31,7 +31,7 @@ Calibrazione hardware:
   3.b- Doppio estrusore/stepper Z pilotati da un solo driver;
 4- Regolazione di fino del piatto;
 
-Calibrazione software:
+**Calibrazione software:
 
 5- Regolazione E-step (quantità di filo pescata);
 6- Aggiustamento flusso di estrusione (da ripetere con ogni nuovo materiale)
