@@ -20,20 +20,21 @@ I seguenti punti ti guideranno nella calibrazione completa della tua Anycubic, e
 
 NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso, o se magari non hai ancora applicato le "mod" che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco *questo articolo* (in fase di preparazione), in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
 
-Andiamo quindi al sodo, ecco riassunti gli 8 punti principali della mia personale procedura di calibrazione:
+Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura di calibrazione:
 
 Calibrazione hardware:
 1- Pre-livellamento del piatto;
 2- Allineamento orizzontale asse Z;
 3- Regolazione finecorsa Z:
   3.a- Estrusore singolo;
-  3.b- Doppio estrusore/connettore stepper Zsx spostato;
+  3.b- Doppio estrusore/stepper Z pilotati da un solo driver;
 4- Regolazione di fino del piatto;
 
 Calibrazione software:
 5- Regolazione E-step (quantità di filo pescata);
+6- Aggiustamento flusso di estrusione (da ripetere con ogni nuovo materiale)
 6- Regolazione X-Y-Z step (accuratezza dimensionale);
-7- Regolazione Oozing e Retraction (evita gocciolamenti);
+7- Regolazione Oozing e Retraction (da ripetere con ogni nuovo materiale);
 8- Ottimizzazione di velocità ed accelerazione (parametro jerk incluso);
 
 Punto 1- Pre-livellamento del piatto
