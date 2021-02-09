@@ -24,8 +24,17 @@ galleria_Z sync tools:
     image_path: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
     alt: "Foto Z tools in posizione (2)"
     title: "Foto Z tools in posizione (2)"
-
     
+galleria_Finecorsa:
+  - url: /assets/docs/calibrazione/Foto finecorsa sx.jpg
+    image_path: /assets/docs/calibrazione/Foto finecorsa sx.jpg
+    alt: "Foto finecorsa sx"
+    title: "Foto finecorsa sx"
+  - url: /assets/docs/calibrazione/Foto finecorsa dx.jpg
+    image_path: /assets/docs/calibrazione/Foto finecorsa dx.jpg
+    alt: "Foto finecorsa dx"
+    title: "Foto finecorsa dx"
+ 
 ---
 
 La procedura di calibrazione sia hardware che software della Anycubic i3 mega è un punto cruciale della messa a punto per ottenere ottime stampe.
@@ -33,7 +42,7 @@ Per eseguirla è necessario armarsi di moolta pazienza; quindi specialmente se s
 
 I seguenti punti ti guideranno nella calibrazione completa della tua Anycubic, ed è suggerito eseguirla di tanto in tanto, quando ti accorgi che la qualità delle stampe sta peggiorando oppure dopo aver smontato parti della struttura per manutenzione od upgrades.
 
-**NOTA VELOCE**: A proposito di upgrades, se dovessi riscontrare eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso, o se magari non hai ancora applicato le "mod" che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco [**questo articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") (in fase di preparazione), in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
+**NOTA VELOCE**: A proposito di upgrades, se dovessi riscontrare eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso, o se magari non hai ancora applicato le "mod" che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco [**questo articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
 
 
 Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura di calibrazione:
@@ -93,32 +102,41 @@ Nient'altro sono che due blocchetti rettangolari della stessa identica misura, a
 
 {% include gallery id="galleria_Z sync tools" caption="Z sync tools" %}
 
-Punto 3- Regolazione finecorsa Z;
-Bene, a questo punto avrai l'asse X (dove scorre il carrello) perfettamente parallelo al piano ma prima di procedere con l'ultimo step di regolazione di fino del piatto è necessario impostare i finecorsa sulle due torrette Z così che pigiando il tasto Home non rischi di dare delle brutte "testate" sul piatto, rovinando il rivestimento e rischiando di scalibrare tutto.
-La procedura da seguire per questo punto è diversa a seconda che tu abbia la stampante nella configurazione originale con un solo estrusore, o che invece tu abbia aggiunto un estrusore, che poi è la stessa da applicare se hai deciso di unificare il pilotaggio dell'asse Z per semplificarti (e non di poco) la calibrazione e mantenerla più a lungo. Ne parliamo in dettaglio in questo articolo.
+
+**Punto 3** Regolazione finecorsa Z;
+
+Bene, a questo punto avrai l'asse X (dove scorre il carrello) perfettamente parallelo al piano ma prima di procedere con l'ultimo step è necessario impostare i finecorsa sulle due torrette Z così che pigiando il tasto Home l'ugello non rischi di dare delle brutte "testate" sul piatto, rischiando di rovinare l'Ultrabase e di scalibrare tutto.
+La procedura da seguire per questo punto è diversa a seconda che tu abbia la stampante nella configurazione originale con un solo estrusore, o che invece tu abbia aggiunto un estrusore, che poi è la stessa da applicare se hai deciso di unificare il pilotaggio dell'asse Z per semplificarti (e non di poco) la calibrazione e mantenerla più a lungo. Ne parliamo in dettaglio in [**quest'altro articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega")
 
 Tornando ai finecorsa:
-*foto finecorsa sx*
-*foto finecorsa dx*
 
-{% include gallery id="galleria_prova" caption="titolo_galleria" %}
+{% include gallery id="galleria_Finecorsa" caption="I finecorsa" %}
 
-3.a - Estrusore singolo
-Nella configurazione standard della Anycubic i3 mega ogni motore viaggia da sè, ed è associato al proprio pulsante finecorsa. In questo modo al comando di Home Z ogni motore smette di ruotare nel momento in cui il proprio pulsante di finecorsa è pigiato. Va da sé quindi che per mantenere l'orizzontalità dell'asse, al comando di Home Z entrambi i pulsanti di finecorsa devono cliccare contemporaneamente come fossero uno solo nel preciso momento in cui l'ugello sfiora il piatto.
-Prima di procedere con la regolazione vera e propria devi però posizionare il classico foglio bianco sul piatto, e portare il carrello al centro dell'asse X. 
+- **Opzione 1** Estrusore singolo:
+
+Nella configurazione standard della Anycubic i3 mega ogni motore viaggia da sè, ed è associato al proprio pulsante finecorsa.
+In questo modo al comando di Home Z ogni motore smette di ruotare nel momento in cui il proprio pulsante di finecorsa è pigiato. Va da sé quindi che per mantenere l'orizzontalità dell'asse, al comando di Home Z entrambi **i pulsanti di finecorsa devono cliccare contemporaneamente** come fossero uno solo e nel preciso momento in cui l'ugello sfiora il piatto.
+
+Prima di procedere con la regolazione vera e propria devi però posizionare il classico foglio bianco sul piatto, e portare il carrello al centro del piatto. 
 Successivamente premi il pulsante di Home Z facendo scendere le due torri. A questo punto dovrai far caso a due fattori: 
-§ L'ugello tocca il foglio? Se si, il foglio dovrà appena appena opporre un minimo di resistenza, non troppa, ed in questo caso l'ugello è alla giusta distanza dal piatto.
-§ I finecorsa hanno cliccato perfettamente insieme? Se si, significa che i finecorsa dell'asse Z sono calibrati.
-Nel caso in cui uno dei due fattori non sia verificato devi agire sulle viti di finecorsa posizionate in ogni torre nel modo seguente:
-§ Se l'ugello NON tocca il foglio, ma i finecorsa hanno cliccato insieme, devi svitare entrambe le viti di finecorsa della stessa quantità
-§ Se l'ugello NON tocca il foglio, e i finecorsa non hanno cliccato insieme, devi svitare entrambe le viti di finecorsa, maggiormente quella che ha cliccato in ritardo.
-§ Se l'ugello tocca il foglio e i finecorsa hanno cliccato insieme, la procedura è terminata§ Se l'ugello tocca il foglio ma i finecorsa non hanno cliccato insieme devi avvitare leggermente il finecorsa che ha cliccato per primo e svitato quello che ha toccato in ritardo
-§ Se l'ugello tocca troppo il foglio ma i finecorsa hanno cliccato insieme devi avvitare i finecorsa della stessa quantità
-§ Se l'ugello tocca troppo il foglio e i finecorsa non hanno cliccato insieme, devi avvitare entrambi, maggiormente quello che ha cliccato per primo.
-Dopo ogni variazione, prima di pigiare nuovamente il tasto Home Z devi obbligatoriamente ripetere il punto 2!!  Questo perchè essendo i motori indipendenti, quando uno solo dei due smette di girare l'asse perde orizzontalità.
-Una volta che l'ugello tocca il foglio (si deve avvertire una piccola resistenza nel tirare il foglio) ed i finecorsa cliccano insieme, la procedura è completa e puoi procedere con l'ultimo step
 
-3.b- Doppio estrusore o modifica asse Z unificato
+- L'ugello tocca il foglio? Se si, il foglio dovrà appena appena opporre un minimo di resistenza, non troppa, ed in questo caso l'ugello è alla giusta distanza dal piatto.
+- I finecorsa hanno cliccato perfettamente insieme? Se si, significa che i finecorsa dell'asse Z sono calibrati.
+
+Nel caso in cui uno dei due fattori non sia verificato devi agire sulle viti di finecorsa posizionate in ogni torre nel modo seguente:
+- Se l'ugello NON tocca il foglio, ma i finecorsa hanno cliccato insieme, devi svitare entrambe le viti di finecorsa della stessa quantità
+- Se l'ugello NON tocca il foglio, e i finecorsa non hanno cliccato insieme, devi svitare entrambe le viti di finecorsa, maggiormente quella che ha cliccato in ritardo.
+- Se l'ugello tocca il foglio e i finecorsa hanno cliccato insieme, la procedura è terminata§ Se l'ugello tocca il foglio ma i finecorsa non hanno cliccato insieme devi avvitare leggermente il finecorsa che ha cliccato per primo e svitato quello che ha toccato in ritardo
+- Se l'ugello tocca troppo il foglio ma i finecorsa hanno cliccato insieme devi avvitare i finecorsa della stessa quantità
+- Se l'ugello tocca troppo il foglio e i finecorsa non hanno cliccato insieme, devi avvitare entrambi, maggiormente quello che ha cliccato per primo.
+
+**IMPORTANTE:** Dopo ogni variazione, prima di pigiare nuovamente il tasto Home Z devi obbligatoriamente ripetere il punto 2!! Questo perchè i motori essendo indipendenti, nel momento in cui non si fermano contemporaneamente fanno perdere l'orizzontalità alle torri Z. 
+Si, lo so cosa stai pensando, è una gran scocciatura dover ripetere tutto ogni volta.. ma non demordere! La questione può essere ovviata seguendo [**questa guida**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") che ti spiegherà come unificare e consolidare il movimento dei due filetti dell'asse Z in soli 60 secondi, cosi che si muovano sempre ESATTAMENTE insieme e della stessa altezza, facendoti evitare un sacco di lavoro!
+
+Una volta che l'ugello tocca il foglio a sufficienza da avvertire una piccola resistenza nel tirarlo ed i finecorsa cliccano insieme, la procedura è completa e puoi procedere con l'ultimo step.
+
+- **Opzione 2** Doppio estrusore/modifica asse Z unificato:
+
 In questa configurazione i motori dell'asse Z condividono lo stesso driver e si muovono sempre e continuamente insieme. A differenza della 3.a non è necessario allineare nuovamente le torri dopo ogni Home Z perchè entrambi i motori si fermeranno sempre contemporaneamente e non sarà persa l'orizzontlità (un bel vantaggio vero?).
 Nel caso tu non abbia rimosso il finecorsa di sinistra ti ricordo che il vero pulsante finecorsa, quello che dice ai motori quando fermarsi, è solo quello di destra mentre il pulsante di sinistra funge solo da "spia" di controllo, quindi non è necessario che entrambi i finecorsa siano cliccati così precisamente come nel caso precedente (un'altra bella comodità eh?).
 La procedura inizia quasi allo stesso modo, dopo aver posizionato il foglio bianco sul piatto ed il carrello al centro dell'asse X, si svita di una manciata di giri la vite finecorsa di sinistra, semplicemente perchè se questa fosse malauguratamente più vicina al pulsante della vite di destra, il pulsante potrebbe essere forzato od addirittura sfondato durante la discesa. Dato che la vite di sx per il momento resta molto alzata, avrai bisogno di cliccare due volte a mano il relativo pulsante finecorsa. Se non lo farai semplicemente la stampante non accetterà altri comandi, incluso l'home successivo per migliorare la regolazione. Ora ti basterà pigiare il tasto Home Z ed osservare l'ugello avvicinarsi al piatto:
