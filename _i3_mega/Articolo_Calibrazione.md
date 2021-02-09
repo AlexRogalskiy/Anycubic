@@ -14,7 +14,7 @@ galleria_prova:
     title: "testo_B"
 ---
 La procedura di calibrazione sia hardware che software della Anycubic i3 mega è un punto cruciale della messa a punto per ottenere ottime stampe.
-Per eseguirla è necessario armarsi di moolta pazienza; quindi specialmente se sei alle prime armi preparati una tazza di tè e biscotti (sconsigliata la caffeina durante queste delicate procedure) e prenditi il pomeriggio libero, alla fine converrai che è più il tempo di leggere che non il fare :D
+Per eseguirla è necessario armarsi di moolta pazienza; quindi specialmente se sei alle prime armi preparati una tazza di tè e biscotti (sconsigliata la caffeina durante queste delicate procedure) e prenditi il pomeriggio libero, alla fine converrai che è più il tempo di leggere che non il fare **:D**
 
 I seguenti punti ti guideranno nella calibrazione completa della tua Anycubic, ed è suggerito eseguirla di tanto in tanto, quando ti accorgi che la qualità delle stampe sta peggiorando oppure dopo aver smontato parti della struttura per manutenzione od upgrades.
 
@@ -25,11 +25,17 @@ Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura 
 **Calibrazione hardware:**
 
 1- Pre-livellamento del piatto;
+
 2- Allineamento orizzontale asse Z;
+
 3- Regolazione finecorsa Z:
+
   3.a- Estrusore singolo;
+  
   3.b- Doppio estrusore/stepper Z pilotati da un solo driver;
+
 4- Regolazione di fino del piatto;
+
 
 **Calibrazione software:**
 
