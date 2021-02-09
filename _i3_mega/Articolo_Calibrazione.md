@@ -55,6 +55,8 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
  - Singolo estrusore;
  - Doppio estrusore/modifica asse Z unificato:
 4. Regolazione di fino del piatto;
+ - Il foglio bianco
+ - Il file stl
 
 **Calibrazione software:**
 
@@ -172,7 +174,7 @@ A quest'ora hai il piatto perfettamente in piano e le barre lisce su cui scorre 
 Finalmente all'ultimo estenuante punto di questa calibrazione e con una buona notizia: **SI STAMPAA!!** 
 Ebbene si, l'ultimo punto riguarda l'affinazione della distanza ugello/piatto e può essere ancora una volta effettuato in due modi, una di queste prevede la stampa di un file particolare, ma andiamo con ordine:
 
-- **Modo 1** Il Foglio bianco:
+- **Modo 1** Il foglio bianco:
 
 Il primo modo è molto semplice e rudimentale. Prendi un foglio di carta bianco, lo stesso usato in precedenza per i finecorsa, e dopo aver portato l'ugello in un estremo angolo, lo poni tra ugello e piatto. Non sto neanche qui a spiegarti come agire sulle manopole perchè lo avrai capito da te! (nel dubbio, devi ruotare la manopola corrispondente finchè non avverti una leggera pressione dell'ugello sul foglio e farai appena fatica a spostarlo)
 
