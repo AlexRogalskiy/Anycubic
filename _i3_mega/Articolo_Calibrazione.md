@@ -28,9 +28,10 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 1. Pre-livellamento del piatto;
 2. Allineamento orizzontale asse Z;
 3. Regolazione finecorsa Z:
- - Estrusore singolo;
- - Doppio estrusore/stepper Z pilotati da un solo driver;
+ - Singolo estrusore;
+ - Doppio estrusore/motori Z pilotati da un solo driver;
 4. Regolazione di fino del piatto;
+
 
 **Calibrazione software:**
 
