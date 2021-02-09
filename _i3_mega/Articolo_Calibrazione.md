@@ -23,6 +23,7 @@ NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficolt
 
 Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura di calibrazione:
 
+
 **Calibrazione hardware:**
 
 1. Pre-livellamento del piatto;
@@ -32,6 +33,7 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
  - Doppio estrusore/motori Z pilotati da un solo driver;
 4. Regolazione di fino del piatto;
 
+
 **Calibrazione software:**
 
 5. Regolazione E-step;
@@ -39,6 +41,9 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 7. Regolazione X-Y-Z step;
 8. Regolazione Oozing e Retraction;
 9. Ottimizzazione di velocità ed accelerazione (parametro jerk incluso);
+
+
+
 
 **Punto 1** Pre-livellamento del piatto:
 
