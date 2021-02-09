@@ -24,16 +24,7 @@ galleria_Z sync tools:
     image_path: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
     alt: "Foto Z tools in posizione (2)"
     title: "Foto Z tools in posizione (2)"
-    
-galleria_Finecorsa:
-  - url: /assets/docs/calibrazione/Foto Z tools in posizione 1.jpg
-    image_path: /assets/docs/calibrazione/Foto Z tools in posizione 1.jpg
-    alt: "Foto Z tools in posizione 1"
-    title: "Foto Z tools in posizione 1"
-  - url: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
-    image_path: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
-    alt: "Foto Z tools in posizione 2"
-    title: "Foto Z tools in posizione 2"
+
     
 ---
 
