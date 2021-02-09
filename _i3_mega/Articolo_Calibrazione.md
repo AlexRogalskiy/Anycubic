@@ -23,6 +23,7 @@ NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficolt
 Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura di calibrazione:
 
 Calibrazione hardware:
+
 1- Pre-livellamento del piatto;
 2- Allineamento orizzontale asse Z;
 3- Regolazione finecorsa Z:
@@ -31,6 +32,7 @@ Calibrazione hardware:
 4- Regolazione di fino del piatto;
 
 Calibrazione software:
+
 5- Regolazione E-step (quantità di filo pescata);
 6- Aggiustamento flusso di estrusione (da ripetere con ogni nuovo materiale)
 6- Regolazione X-Y-Z step (accuratezza dimensionale);
