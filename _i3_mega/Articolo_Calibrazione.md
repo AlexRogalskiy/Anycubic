@@ -16,20 +16,20 @@ galleria_prova:
 La procedura di calibrazione sia hardware che software della Anycubic i3 mega è un punto cruciale della messa a punto per ottenere ottime stampe.
 Per eseguirla è necessario armarsi di moolta pazienza; quindi specialmente se sei alle prime armi preparati una tazza di tè e biscotti (sconsigliata la caffeina durante queste delicate procedure) e prenditi il pomeriggio libero, alla fine converrai che è più il tempo di leggere che non il fare :D
 
-I seguenti punti ti guideranno nella calibrazione completa della tua Anycubic, ed è suggerito eseguirla di tanto in tanto, quando ti accorgi che la qualità delle stampe sta deteriorando oppure dopo aver smontato parti della struttura per manutenzione od upgrades.
+I seguenti punti ti guideranno nella calibrazione completa della tua Anycubic, ed è suggerito eseguirla di tanto in tanto, quando ti accorgi che la qualità delle stampe sta peggiorando oppure dopo aver smontato parti della struttura per manutenzione od upgrades.
 
-NOTA: A proposito di upgrades, se riscontri eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso o se magari non hai ancora applicato le mods che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco questo articolo, in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
-	
-Passiamo quindi al sodo, ecco riassunti gli 8 punti principali della mia personale procedura:
-	
+NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso, o se magari non hai ancora applicato le "mod" che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco *questo articolo* (in fase di preparazione), in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
+
+Andiamo quindi al sodo, ecco riassunti gli 8 punti principali della mia personale procedura di calibrazione:
+
 Calibrazione hardware:
 1- Pre-livellamento del piatto;
 2- Allineamento orizzontale asse Z;
-3- Regolazione finecorsa Z;
-3.a - Estrusore singolo;
-3.b- Doppio estrusore o modifica asse Z unificato;
+3- Regolazione finecorsa Z:
+  3.a- Estrusore singolo;
+  3.b- Doppio estrusore/connettore stepper Zsx spostato;
 4- Regolazione di fino del piatto;
-	
+
 Calibrazione software:
 5- Regolazione E-step (quantità di filo pescata);
 6- Regolazione X-Y-Z step (accuratezza dimensionale);
