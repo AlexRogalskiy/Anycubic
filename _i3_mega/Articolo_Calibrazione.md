@@ -22,7 +22,7 @@ NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficolt
 
 Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura di calibrazione:
 
-Calibrazione hardware:
+**Calibrazione hardware:**
 
 1- Pre-livellamento del piatto;
 2- Allineamento orizzontale asse Z;
