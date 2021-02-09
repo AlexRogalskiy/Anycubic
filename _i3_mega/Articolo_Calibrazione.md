@@ -198,4 +198,6 @@ Finalmente la calibrazione hardware è terminata! Il consiglio finale è sicuram
 **n.b.** se durante la stampa di prova ti accorgi che nel tratto rettilineo tra due angoli le linee non mantengono la distanza che hanno negli angoli, non temere. I piatti sono spesso e volentieri ondulati o comunque non perfettamente piani. Il problema si risolve con l'implementazione di un un sensore come il bl-touch o ad ultrasuoni, che trovi affrontati più in dettaglio nell'[**ennesimo articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega").
 
 
+
+
 **Che la stampa sia con voi!**
