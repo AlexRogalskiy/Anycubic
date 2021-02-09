@@ -26,6 +26,16 @@ galleria_Z sync tools:
     alt: "Foto Z tools in posizione 2"
     title: "Foto Z tools in posizione 2"
     
+    galleria_Finecorsa:
+  - url: /assets/docs/calibrazione/Foto Z tools in posizione 1.jpg
+    image_path: /assets/docs/calibrazione/Foto Z tools in posizione 1.jpg
+    alt: "Foto Z tools in posizione 1"
+    title: "Foto Z tools in posizione 1"
+  - url: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
+    image_path: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
+    alt: "Foto Z tools in posizione 2"
+    title: "Foto Z tools in posizione 2"
+    
 ---
 
 La procedura di calibrazione sia hardware che software della Anycubic i3 mega è un punto cruciale della messa a punto per ottenere ottime stampe.
@@ -91,7 +101,7 @@ Successivamente ruoti il filetto finchè non ottieni un'altezza di 100mm. Poi ri
 
 Nient'altro sono che due blocchetti rettangolari della stessa identica misura, alti 100mm. Esistono in rete dei progetti 3D (stl) pronti da stampare di questi due blocchetti ma supponendo che la tua stampante non sia ancora così precisa, prendi un qualsiasi pezzo solido di circa quell'altezza. L'ideale sarebbe averne due, ma in caso di dubbia lunghezza (è necessaria una precisione del decimo di mm) si può fare anche con uno solo. Posiziona il tool nello stesso modo in cui posizioneresti il calibro, e poi ruota i filetti finché non avverti una piccola pressione della barra sul tool. È molto importante che la pressione sia la stessa da entrambi i lati, in quanto anche un solo scatto corrisponde ad un layer di sfasamento tra gli estremi dell'asse X.
 
-{% include gallery id="gallery" caption="titolo_galleria" %}
+{% include gallery id="galleria_Z sync tools" caption="galleria_Z sync tools" %}
 
 Punto 3- Regolazione finecorsa Z;
 Bene, a questo punto avrai l'asse X (dove scorre il carrello) perfettamente parallelo al piano ma prima di procedere con l'ultimo step di regolazione di fino del piatto è necessario impostare i finecorsa sulle due torrette Z così che pigiando il tasto Home non rischi di dare delle brutte "testate" sul piatto, rovinando il rivestimento e rischiando di scalibrare tutto.
