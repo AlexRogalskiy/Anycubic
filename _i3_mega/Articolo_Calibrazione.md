@@ -53,7 +53,7 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 2. Allineamento orizzontale asse Z;
 3. Regolazione finecorsa Z:
  - Singolo estrusore;
- - Doppio estrusore/motori Z pilotati da un solo driver;
+ - Doppio estrusore/modifica asse Z unificato:
 4. Regolazione di fino del piatto;
 
 **Calibrazione software:**
@@ -106,11 +106,12 @@ Nient'altro sono che due blocchetti rettangolari della stessa identica misura, a
 **Punto 3** Regolazione finecorsa Z;
 
 Bene, a questo punto avrai l'asse X (dove scorre il carrello) perfettamente parallelo al piano ma prima di procedere con l'ultimo step è necessario impostare i finecorsa sulle due torrette Z così che pigiando il tasto Home l'ugello non rischi di dare delle brutte "testate" sul piatto, rischiando di rovinare l'Ultrabase e di scalibrare tutto.
-La procedura da seguire per questo punto è diversa a seconda che tu abbia la stampante nella configurazione originale con un solo estrusore, o che invece tu abbia aggiunto un estrusore, che poi è la stessa da applicare se hai deciso di unificare il pilotaggio dell'asse Z per semplificarti (e non di poco) la calibrazione e mantenerla più a lungo. Ne parliamo in dettaglio in [**quest'altro articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega")
+La procedura da seguire per questo punto è diversa a seconda che tu abbia la stampante nella configurazione originale con un solo estrusore, o che invece tu abbia aggiunto un estrusore, che poi è la stessa da applicare se hai deciso di unificare il pilotaggio dell'asse Z per semplificarti (e non di poco) la calibrazione oltre che a mantenerla più a lungo. Ne parliamo in dettaglio in [**questo altro articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega")
 
 Tornando ai finecorsa:
 
 {% include gallery id="galleria_Finecorsa" caption="I finecorsa" %}
+
 
 - **Opzione 1** Estrusore singolo:
 
@@ -135,23 +136,43 @@ Si, lo so cosa stai pensando, è una gran scocciatura dover ripetere tutto ogni 
 
 Una volta che l'ugello tocca il foglio a sufficienza da avvertire una piccola resistenza nel tirarlo ed i finecorsa cliccano insieme, la procedura è completa e puoi procedere con l'ultimo step.
 
+
 - **Opzione 2** Doppio estrusore/modifica asse Z unificato:
 
-In questa configurazione i motori dell'asse Z condividono lo stesso driver e si muovono sempre e continuamente insieme. A differenza della 3.a non è necessario allineare nuovamente le torri dopo ogni Home Z perchè entrambi i motori si fermeranno sempre contemporaneamente e non sarà persa l'orizzontlità (un bel vantaggio vero?).
-Nel caso tu non abbia rimosso il finecorsa di sinistra ti ricordo che il vero pulsante finecorsa, quello che dice ai motori quando fermarsi, è solo quello di destra mentre il pulsante di sinistra funge solo da "spia" di controllo, quindi non è necessario che entrambi i finecorsa siano cliccati così precisamente come nel caso precedente (un'altra bella comodità eh?).
-La procedura inizia quasi allo stesso modo, dopo aver posizionato il foglio bianco sul piatto ed il carrello al centro dell'asse X, si svita di una manciata di giri la vite finecorsa di sinistra, semplicemente perchè se questa fosse malauguratamente più vicina al pulsante della vite di destra, il pulsante potrebbe essere forzato od addirittura sfondato durante la discesa. Dato che la vite di sx per il momento resta molto alzata, avrai bisogno di cliccare due volte a mano il relativo pulsante finecorsa. Se non lo farai semplicemente la stampante non accetterà altri comandi, incluso l'home successivo per migliorare la regolazione. Ora ti basterà pigiare il tasto Home Z ed osservare l'ugello avvicinarsi al piatto:
-§ Se l'ugello non tocca il foglio, devi svitare la vite di dx;
-§ Se l'ugello tocca il foglio la procedura è completata;
-§ Se l'ugello tocca troppo il foglio devi svitare la vite di dx;
-A questo punto devi solo riavvitare la vite finecorsa di sinistra finche non giunge a premere con sicurezza il pulsante e puoi procedere con l'ultimo step.
-*foto ugello sul foglio*
+Questa opzione è riservata a coloro che hanno aggiunto un secondo estrusore alla Anycubic i3 mega, oppure a chi ha seguito [**la nostra guida**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") su come unificare il movimento dei due filetti dell'asse Z facendo in modo che i motori fossero pilotati dallo stesso driver e si muovano sempre e  insieme allineati (ricordo che questa opzione è prevista dalla scheda madre Trigorilla ma non messa in pratica dalla Anycubic quando ne ha dotato le stampanti). 
+A differenza dell'opzione con singolo estrusore non è necessario ripetere il punto 2 dopo ogni comando di Z Home, per allineare nuovamente le torri, dato che entrambi i motori si fermeranno sempre contemporaneamente e non sarà persa l'orizzontlità. Un bel vantaggio vero?
 
-Punto 4- Regolazione di fino del piatto;
-Finalmente all'ultimo estenuante punto di questa calibrazione e con una buona notizia: si stampa! Ebbene si, l'ultimo punto riguarda l'affinazione dell'accoppiamento ugello/piatto e va effettuato in corso d'opera. A quest'ora hai il piatto perfettamente in piano e le barre lisce su cui scorre il carrello perfettamente orizzontali, rimangono solo le manopole del piatto da regolare finemente allo scopo di compensare quelle differenze micrometriche che difficilmente si rilevano con il calibro. Lo dovrai fare con una semplice stampa molto simile ad uno skirt, una volta scaricato questo file lo dovrai aprire nel tuo slicer di fiducia (consigliatissimo Cura ma se non ti senti confidente questo articolo fa al caso tuo) e controllare che nell'anteprima le linee siano molto vicine al bordo del piatto. Se tutto è in regola puoi caricare un qualsiasi filamento (meglio se PLA di colore chiaro*) e far partire la stampa. Man mano che l'ugello traccerà queste linee dovrai far caso a come il filamento si dispone negli angoli, compensandoli ruotando le manopole per avvicinare od allontarare tra loro le linee di filamento depositato:
-○ Se le linee sono troppo distanti e non si toccano tra loro, devi svitare la manopola ed avvicinare quell'angolo del piatto;
-○ Se le linee si congiungono mantenendo la giunzione evidente, la procedura è completa;
-○ Se le linee non sono distinguibili o addirittura la linea è troppo sottile tanto da essere troppo "trasparente" od estrusa a tratti devi avvitare la manopola ed avvicinare quell'angolo del piatto.
-*foto linee distanti*
+Mi sento di ricordarti che in questa configurazione il **vero** pulsante finecorsa, quello che dice ai motori quando fermarsi, è ora solo quello di destra mentre il pulsante di sinistra funge solo da "spia" di controllo. Non è quindi necessario che entrambi i finecorsa siano cliccati così precisamente come nel caso precedente. Un'altra bella comodità eh?
+
+La procedura inizia quasi allo stesso modo, dopo aver posizionato il foglio bianco sul piatto ed il carrello al centro del piatto, la prima cosa da fare è svitare di mezzo centimetro la vite finecorsa di sinistra, quella di check. Questo semplicemente perchè se fosse malauguratamente più vicina al pulsante finecorsa rispetto alla vite di destra, colei che ferma i motori, il pulsante potrebbe essere forzato od addirittura sfondato durante la discesa dell'asse. Inoltre dato che la vite di sinistra per precauzione rwesta alzata, dovrai cliccare tu due volte a mano il relativo pulsante finecorsa per far capire alla scheda madre che è tutto ok. Se non lo farai semplicemente la stampante non accetterà altri comandi, incluso l'home successivo per migliorare la regolazione. 
+
+Ora ti basterà pigiare il tasto Home Z ed osservare l'ugello avvicinarsi al piatto:
+- Se l'ugello non tocca il foglio, devi svitare la vite di dx;
+- Se l'ugello tocca il foglio la procedura è completata;
+- Se l'ugello tocca troppo il foglio devi svitare la vite di dx;
+
+A questo punto devi solo riavvitare la vite finecorsa di sinistra finche non giunge a premere con sicurezza il pulsante e puoi procedere con l'ultimo step.
+
+{% include figure image_path="/assets/docs/calibrazione/Foto ugello sul foglio.jpg" alt="Foto ugello sul foglio" caption="Foto ugello sul foglio" %}
+
+**Punto 4** Regolazione di fino del piatto;
+
+Finalmente all'ultimo estenuante punto di questa calibrazione e con una buona notizia: **si stampaaa!** 
+
+Ebbene si, l'ultimo punto riguarda l'affinazione della distanza ugello/piatto e va effettuato diciamo in corso d'opera. 
+A quest'ora hai il piatto perfettamente in piano e le barre lisce su cui scorre il carrello perfettamente orizzontali, rimangono solo le manopole del piatto da regolare finemente allo scopo di compensare quelle differenze micrometriche che difficilmente si rilevano con il calibro.
+Lo dovrai fare con una semplice stampa molto simile ad uno skirt, una volta scaricato [**questo file**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") lo dovrai aprire nel tuo slicer di fiducia (caldamente consigliato Cura. Se non ti senti confidente [**questa guida di approccio**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") fa al caso tuo) e controllare che nell'anteprima le linee siano molto vicine al bordo del piatto. Se tutto è in regola puoi caricare un qualsiasi filamento (meglio se PLA di colore chiaro) e far partire la stampa. 
+Man mano che l'ugello traccerà queste linee dovrai far caso a come il filamento si dispone vicino agli angoli, compensando ruotando di conseguenza le manopole per avvicinare od allontarare tra loro le linee di filamento depositato:
+
+- Se le linee sono troppo distanti e non si toccano tra loro, devi svitare la manopola ed avvicinare quell'angolo del piatto;
+- Se le linee si congiungono mantenendo la giunzione evidente, la procedura è completa;
+- Se le linee non sono distinguibili o addirittura la linea è troppo sottile tanto da essere troppo "trasparente" od estrusa a tratti devi avvitare la manopola ed avvicinare quell'angolo del piatto.
+
+
 *foto linee giuste*
+
 Finalmente la calibrazione hardware è terminata! Il consiglio finale è sicuramente quello di non allarmarti se non ottieni soddisfacenti risultati alla prima o seconda calibrazione. Via via acquisirai sempre più confidenza con le procedure ed arriverai ad effettuare gli step appena affrontati in non più di 20-30 minuti.
-n.b. se durante la stampa di prova ti accorgi che nel tratto rettilineo tra due angoli le linee non mantengono la distanza che hanno negli angoli, non temere. I piatti sono spesso e volentieri ondulati o comunque non perfettamente piani. Il problema si risolve con l'implementazione di un un sensore come il bl-touch o ad ultrasuoni, che trovi nel dettaglio in questo articolo.
+
+**n.b.** se durante la stampa di prova ti accorgi che nel tratto rettilineo tra due angoli le linee non mantengono la distanza che hanno negli angoli, non temere. I piatti sono spesso e volentieri ondulati o comunque non perfettamente piani. Il problema si risolve con l'implementazione di un un sensore come il bl-touch o ad ultrasuoni, che trovi affrontati più in dettaglio nell'[**ennesimo articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega").
+
+Che la stampa sia con voi!
