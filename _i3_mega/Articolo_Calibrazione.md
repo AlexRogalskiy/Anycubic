@@ -33,7 +33,7 @@ Per eseguirla è necessario armarsi di moolta pazienza; quindi specialmente se s
 
 I seguenti punti ti guideranno nella calibrazione completa della tua Anycubic, ed è suggerito eseguirla di tanto in tanto, quando ti accorgi che la qualità delle stampe sta peggiorando oppure dopo aver smontato parti della struttura per manutenzione od upgrades.
 
-NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso, o se magari non hai ancora applicato le "mod" che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco **questo articolo** (in fase di preparazione), in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
+**NOTA VELOCE**: A proposito di upgrades, se dovessi riscontrare eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso, o se magari non hai ancora applicato le "mod" che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco [**questo articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") (in fase di preparazione), in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
 
 
 Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura di calibrazione:
