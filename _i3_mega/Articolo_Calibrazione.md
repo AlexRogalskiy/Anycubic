@@ -1,18 +1,33 @@
 ---
+
 title: "Calibrazione Stampante 3D"
 excerpt: "Come calibrare la stampante"
 author: "Daniel Ruffato"
 
-galleria_prova:
-  - url: /assets/docs/calibrazione/455707901_382556.jpg
-    image_path: /assets/docs/acalibrazione/455707901_382556.jpg
-    alt: "testo_A"
-    title: "testo_A"
-  - url: /assets/docs/calibrazione/455816302_152202.jpg
-    image_path: /assets/docs/calibrazione/455816302_152202.jpg
-    alt: "testo_B"
-    title: "testo_B"
+
+galleria_Foto calibro su Z:
+  - url: /assets/docs/calibrazione/Foto calibro su Z 1.jpg
+    image_path: /assets/docs/calibrazione/Foto calibro su Z 1.jpg
+    alt: "Foto calibro su Z (1)"
+    title: "Foto calibro su Z (1)"
+  - url: /assets/docs/calibrazione/Foto calibro su Z 2.jpg
+    image_path: /assets/docs/calibrazione/Foto calibro su Z 2.jpg
+    alt: "Foto calibro su Z (2)"
+    title: "Foto calibro su Z (2)"
+    
+    
+galleria_Z sync tools:
+  - url: /assets/docs/calibrazione/Foto Z tools in posizione 1.jpg
+    image_path: /assets/docs/calibrazione/Foto Z tools in posizione 1.jpg
+    alt: "Foto Z tools in posizione 1"
+    title: "Foto Z tools in posizione 1"
+  - url: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
+    image_path: /assets/docs/calibrazione/Foto Z tools in posizione 2.jpg
+    alt: "Foto Z tools in posizione 2"
+    title: "Foto Z tools in posizione 2"
+    
 ---
+
 La procedura di calibrazione sia hardware che software della Anycubic i3 mega è un punto cruciale della messa a punto per ottenere ottime stampe.
 Per eseguirla è necessario armarsi di moolta pazienza; quindi specialmente se sei alle prime armi preparati una tazza di tè e biscotti (sconsigliata la caffeina durante queste delicate procedure) e prenditi il pomeriggio libero, alla fine converrai che è più il tempo di leggere che non il fare **:D**
 
@@ -23,7 +38,6 @@ NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficolt
 
 Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura di calibrazione:
 
-
 **Calibrazione hardware:**
 
 1. Pre-livellamento del piatto;
@@ -33,7 +47,6 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
  - Doppio estrusore/motori Z pilotati da un solo driver;
 4. Regolazione di fino del piatto;
 
-
 **Calibrazione software:**
 
 5. Regolazione E-step;
@@ -42,7 +55,6 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 8. Regolazione Oozing e Retraction;
 9. Ottimizzazione di velocità ed accelerazione (parametro jerk incluso);
 
-.                                                                  .
 
 **Punto 1** Pre-livellamento del piatto:
 
@@ -51,27 +63,35 @@ Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto a
 {% include figure image_path="/assets/docs/calibrazione/Foto calibro su piatto.jpg" alt="Foto calibro su piatto" caption="Foto calibro su piatto" %}
 
 Agendo quindi sulla manopola dovrai cercare di portare la distanza a circa 23mm ma se hai installato 4 molle afermarket la misura può differire. Regolato il primo angolo si passa al suo opposto (a croce) e si effettua la regolazione sempre portandolo alla stessa distanza, e cosi per i restanti due angoli. Fatto ciò il tuo piatto sarà approssimativamente calibrato, non ancora perfettamente, ma quanto basta per il momento.
-n.b. se ti venisse il dubbio che il telaietto nero che sorregge il piatto non sia molto dritto è possibile rimediare effettuando la misurazione con una distanza assoluta, cioè poggiando la testa del calibro sulla base della stampante invece che poggiando uno dei due becchi sulla parte inferiore del telaietto. In questo caso la misura consigliata aumenta e non è più 23mm ma 34mm.
+
+**n.b.** se ti venisse il dubbio che il telaietto nero che sorregge il piatto non sia molto dritto è possibile rimediare effettuando la misurazione con una distanza assoluta, cioè poggiando la testa del calibro sulla base della stampante invece che poggiando uno dei due becchi sulla parte inferiore del telaietto. In questo caso la misura consigliata aumenta e non è più 23mm ma 34mm.
 
 {% include figure image_path="/assets/docs/calibrazione/Foto calibro sulla base.jpg" alt="Foto calibro sulla base" caption="Foto calibro sulla base" %}
 
-Punto 2- Allineamento orizzontale asse Z
+
+**Punto 2** Allineamento orizzontale asse Z:
+
 Questo è per certo la fase di calibrazione hardware più critica, ed al tempo stesso che si riflette maggiormente sulle stampe se non eseguita come si deve. Farlo nel modo adeguato ti risparmierà un sacco di grattacapi per cui non aver fretta.
-L'aggiustamento deve essere effettuato con i motori accesi* ed il carrello al centro dell'asse X, e consiste nel ruotare i due filetti verticali in modo che le torrette si trovino alla stessa altezza e parallele al piatto. In giro si leggono diverse strategie che utilizzano vari punti di riferimento per l'allineamento ma quella vincente e più accurata è una sola, ovvero quella con il riferimento di misura base della stampante --> barra liscia X inferiore.
-*foto indicazione riferimenti*
+L'aggiustamento deve essere effettuato con i motori accesi ed il carrello al centro dell'asse X, e consiste nel ruotare i due filetti verticali in modo che le torrette si trovino alla stessa altezza e parallele al piatto.
+Il motivo di eseguire la procedura con i motori ON, o almeno quelli dell'asse Z, è il fatto che così facendo essi saranno sempre costretti a posizionarsi in uno degli "scatti" di movimento che possono fare, e non magari a metà via tra due scatti (quando i motori sono spenti). Così non si rischia che al primo comando i motori non si posizionino casualmente nello scatto "sopra" o "sotto", sballando la calibrazione. Quindi è bene assicurarti che i motori siano accesi dando un comando di spostamento Z qualsiasi prima di seguire questo punto.
+
+In giro si leggono diverse strategie che utilizzano i più disparati punti di riferimento per l'allineamento ma quella "vincente" e più accurata è una sola: quella con il riferimento di misura base della stampante --> barra liscia X inferiore, come indicato dalla foto sottostante.
+
+{% include figure image_path="/assets/docs/calibrazione/Foto indicazione riferimento.jpg" alt="Foto indicazione riferimento" caption="Foto indicazione riferimento" %}
+
 Per misurare la distanza tra questi due punti ci sono sostanzialmente due modi:
-§ il primo utilizza ancora il calibro, lo posizioni a fianco ad una delle due torri Z in modo che la testa del calibro poggi nuovamente sulla base della stampante mentre l'altro becco tocchi il punto più basso della barra liscia inferiore dell'asse X. Successivamente ruoti il filetto finchè non ottieni un'altezza di 100mm. Poi ripeti la misurazione sull'altra torre portandola esattamente alla stessa altezza.
-*foto calibro su Z*
+- Il primo utilizza ancora il calibro. Lo posizioni a fianco ad una delle due torri Z in modo che la testa del calibro poggi nuovamente sulla base della stampante mentre l'altro becco tocchi il punto più basso della barra liscia inferiore dell'asse X.
+Successivamente ruoti il filetto finchè non ottieni un'altezza di 100mm. Poi ripeti la misurazione sull'altra torre portandola esattamente alla stessa altezza.
 
-§ Altro modo mooolto piu rapido ed in un certo senso anche più preciso è quello di utilizzare due "Z Sync Tool".
-*foto Z tools*
+{% include gallery id="galleria_Foto calibro su Z" caption="Foto calibro su Z" %}
 
-Nient'altro sono che due blocchetti rettangolari della stessa identica misura, alti 100mm. Esistono in rete dei progetti 3D (stl) pronti da stampare di questi due blocchetti ma supponendo che la tua stampante non sia ancora così precisa, prendi un qualsiasi pezzo solido di circa quell'altezza. L'ideale sarebbe averne due, ma in caso di dubbia lunghezza (è necessaria una precisione del decimo di mm) si può fare anche con uno solo. Posiziona il tool nello stesso modo in cui posizioneresti il calibro, e poi ruota i filetti finché non avverti una piccola pressione della barra sul tool. È molto importante che la pressione sia la stessa da entrambi i lati, in quanto anche un solo scatto corrisponde ad un layer di sfasamento tra gli estremi dell'asse X
-*foto Z tools in posizione 1 e 2*
+- Altro modo mooolto piu rapido ed in un certo senso anche più preciso è quello di utilizzare due Z Sync Tool.
 
-{% include gallery id="galleria_prova" caption="titolo_galleria" %}
+{% include figure image_path="/assets/docs/calibrazione/Foto Z tools.jpg" alt="Foto Z tools" caption="Foto Z tools" %}
 
-* Il motivo di eseguire la procedura con i motori ON, o almeno quelli dell'asse Z, è appunto il fatto che così facendo essi saranno sempre costretti a posizionarsi in uno degli "scatti" di movimento che possono fare, e non magari a metà via tra due scatti (quando i motori sono spenti). Così non si rischia che al primo comando finiscano casualmente nello scatto "sopra" o "sotto", sballando la calibrazione. Quindi è bene assicurarti che i motori siano accesi dando un comando di spostamento Z qualsiasi prima di seguire questo punto.
+Nient'altro sono che due blocchetti rettangolari della stessa identica misura, alti 100mm. Esistono in rete dei progetti 3D (stl) pronti da stampare di questi due blocchetti ma supponendo che la tua stampante non sia ancora così precisa, prendi un qualsiasi pezzo solido di circa quell'altezza. L'ideale sarebbe averne due, ma in caso di dubbia lunghezza (è necessaria una precisione del decimo di mm) si può fare anche con uno solo. Posiziona il tool nello stesso modo in cui posizioneresti il calibro, e poi ruota i filetti finché non avverti una piccola pressione della barra sul tool. È molto importante che la pressione sia la stessa da entrambi i lati, in quanto anche un solo scatto corrisponde ad un layer di sfasamento tra gli estremi dell'asse X.
+
+{% include gallery id="gallery" caption="titolo_galleria" %}
 
 Punto 3- Regolazione finecorsa Z;
 Bene, a questo punto avrai l'asse X (dove scorre il carrello) perfettamente parallelo al piano ma prima di procedere con l'ultimo step di regolazione di fino del piatto è necessario impostare i finecorsa sulle due torrette Z così che pigiando il tasto Home non rischi di dare delle brutte "testate" sul piatto, rovinando il rivestimento e rischiando di scalibrare tutto.
