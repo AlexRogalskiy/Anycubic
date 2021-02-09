@@ -42,9 +42,7 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 8. Regolazione Oozing e Retraction;
 9. Ottimizzazione di velocità ed accelerazione (parametro jerk incluso);
 
-
-
-
+.                                                                  .
 
 **Punto 1** Pre-livellamento del piatto:
 
