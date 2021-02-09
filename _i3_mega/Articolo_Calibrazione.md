@@ -64,18 +64,23 @@ L'aggiustamento deve essere effettuato con i motori accesi* ed il carrello al ce
 Per misurare la distanza tra questi due punti ci sono sostanzialmente due modi:
 § il primo utilizza ancora il calibro, lo posizioni a fianco ad una delle due torri Z in modo che la testa del calibro poggi nuovamente sulla base della stampante mentre l'altro becco tocchi il punto più basso della barra liscia inferiore dell'asse X. Successivamente ruoti il filetto finchè non ottieni un'altezza di 100mm. Poi ripeti la misurazione sull'altra torre portandola esattamente alla stessa altezza.
 *foto calibro su Z*
+
 § Altro modo mooolto piu rapido ed in un certo senso anche più preciso è quello di utilizzare due "Z Sync Tool".
 *foto Z tools*
+
 Nient'altro sono che due blocchetti rettangolari della stessa identica misura, alti 100mm. Esistono in rete dei progetti 3D (stl) pronti da stampare di questi due blocchetti ma supponendo che la tua stampante non sia ancora così precisa, prendi un qualsiasi pezzo solido di circa quell'altezza. L'ideale sarebbe averne due, ma in caso di dubbia lunghezza (è necessaria una precisione del decimo di mm) si può fare anche con uno solo. Posiziona il tool nello stesso modo in cui posizioneresti il calibro, e poi ruota i filetti finché non avverti una piccola pressione della barra sul tool. È molto importante che la pressione sia la stessa da entrambi i lati, in quanto anche un solo scatto corrisponde ad un layer di sfasamento tra gli estremi dell'asse X
 *foto Z tools in posizione 1 e 2*
+
 * Il motivo di eseguire la procedura con i motori ON, o almeno quelli dell'asse Z, è appunto il fatto che così facendo essi saranno sempre costretti a posizionarsi in uno degli "scatti" di movimento che possono fare, e non magari a metà via tra due scatti (quando i motori sono spenti). Così non si rischia che al primo comando finiscano casualmente nello scatto "sopra" o "sotto", sballando la calibrazione. Quindi è bene assicurarti che i motori siano accesi dando un comando di spostamento Z qualsiasi prima di seguire questo punto.
 
 Punto 3- Regolazione finecorsa Z;
 Bene, a questo punto avrai l'asse X (dove scorre il carrello) perfettamente parallelo al piano ma prima di procedere con l'ultimo step di regolazione di fino del piatto è necessario impostare i finecorsa sulle due torrette Z così che pigiando il tasto Home non rischi di dare delle brutte "testate" sul piatto, rovinando il rivestimento e rischiando di scalibrare tutto.
 La procedura da seguire per questo punto è diversa a seconda che tu abbia la stampante nella configurazione originale con un solo estrusore, o che invece tu abbia aggiunto un estrusore, che poi è la stessa da applicare se hai deciso di unificare il pilotaggio dell'asse Z per semplificarti (e non di poco) la calibrazione e mantenerla più a lungo. Ne parliamo in dettaglio in questo articolo.
+
 Tornando ai finecorsa:
 *foto finecorsa sx*
 *foto finecorsa dx*
+
 3.a - Estrusore singolo
 Nella configurazione standard della Anycubic i3 mega ogni motore viaggia da sè, ed è associato al proprio pulsante finecorsa. In questo modo al comando di Home Z ogni motore smette di ruotare nel momento in cui il proprio pulsante di finecorsa è pigiato. Va da sé quindi che per mantenere l'orizzontalità dell'asse, al comando di Home Z entrambi i pulsanti di finecorsa devono cliccare contemporaneamente come fossero uno solo nel preciso momento in cui l'ugello sfiora il piatto.
 Prima di procedere con la regolazione vera e propria devi però posizionare il classico foglio bianco sul piatto, e portare il carrello al centro dell'asse X. 
@@ -90,6 +95,7 @@ Nel caso in cui uno dei due fattori non sia verificato devi agire sulle viti di 
 § Se l'ugello tocca troppo il foglio e i finecorsa non hanno cliccato insieme, devi avvitare entrambi, maggiormente quello che ha cliccato per primo.
 Dopo ogni variazione, prima di pigiare nuovamente il tasto Home Z devi obbligatoriamente ripetere il punto 2!!  Questo perchè essendo i motori indipendenti, quando uno solo dei due smette di girare l'asse perde orizzontalità.
 Una volta che l'ugello tocca il foglio (si deve avvertire una piccola resistenza nel tirare il foglio) ed i finecorsa cliccano insieme, la procedura è completa e puoi procedere con l'ultimo step
+
 3.b- Doppio estrusore o modifica asse Z unificato
 In questa configurazione i motori dell'asse Z condividono lo stesso driver e si muovono sempre e continuamente insieme. A differenza della 3.a non è necessario allineare nuovamente le torri dopo ogni Home Z perchè entrambi i motori si fermeranno sempre contemporaneamente e non sarà persa l'orizzontlità (un bel vantaggio vero?).
 Nel caso tu non abbia rimosso il finecorsa di sinistra ti ricordo che il vero pulsante finecorsa, quello che dice ai motori quando fermarsi, è solo quello di destra mentre il pulsante di sinistra funge solo da "spia" di controllo, quindi non è necessario che entrambi i finecorsa siano cliccati così precisamente come nel caso precedente (un'altra bella comodità eh?).
