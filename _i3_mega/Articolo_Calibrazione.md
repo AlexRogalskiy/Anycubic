@@ -32,8 +32,6 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
  - Doppio estrusore/motori Z pilotati da un solo driver;
 4. Regolazione di fino del piatto;
 
-
-
 **Calibrazione software:**
 
 5. Regolazione E-step;
