@@ -20,7 +20,7 @@ I seguenti punti ti guideranno nella calibrazione completa della tua Anycubic, e
 
 NOTA VELOCE: A proposito di upgrades, se dovessi riscontrare eccessive difficoltà nel punto 2 e 3 o ti sembra di star ripetendo le calibrazioni troppo spesso, o se magari non hai ancora applicato le "mod" che ti consentono di diminuire la frequenza delle calibrazioni, ti suggerisco **questo articolo** (in fase di preparazione), in cui sono visti nel dettaglio tutti quegli upgrade che ti semplificheranno la calibrazione aumentando la qualità delle tue stampe, in special modo consigliata quella degli anti-backlash e degli stepper driver.
 
-Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura di calibrazione:
+Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura di calibrazione:
 
 **Calibrazione hardware:**
 
@@ -40,11 +40,11 @@ Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura 
 8. Regolazione Oozing e Retraction;
 9. Ottimizzazione di velocità ed accelerazione (parametro jerk incluso);
 
-Punto 1- Pre-livellamento del piatto
-Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto al telaietto nero a cui è aggianciato. Lo dovrai fare utilizzando un calibro (digitale o analogico vanno entrambi benissimo) e misurando la distanza tra piatto e telaietto. Per farlo basta posizionare i becchi del calibro in modo che poggino uno sulla superficie superiore del piatto e l'altro sulla superficie inferiore del telaietto, a "morsa" diciamo. Mi raccomando! Presta attenzione a non scalfire la superficie trattata "Ultrabase" del piatto.
+**Punto 1** Pre-livellamento del piatto
+Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto al telaietto nero a cui è agganciato. Lo dovrai fare utilizzando un calibro (digitale o analogico vanno entrambi bene) e misurando la distanza tra piatto e telaietto. Per farlo basta posizionare i becchi del calibro in modo che poggino uno sulla superficie superiore del piatto e l'altro sulla superficie inferiore del telaietto, a "morsa" diciamo. Mi raccomando! Presta attenzione a non scalfire la superficie trattata "Ultrabase" del piatto.
 *foto calibro su piatto*
 
-{% include figure image_path="/assets/docs/calibrazione/455906238_32732.jpg" alt="titolo_immagine" caption="titolo_immagine" %}
+{% include figure image_path="/assets/docs/calibrazione/Foto calibro su piatto.jpg" alt="Foto calibro su piatto" caption="Foto calibro su piatto" %}
 
 Agendo quindi sulla manopola dovrai cercare di portare la distanza a circa 23mm ma se hai installato 4 molle afermarket la misura può differire. Regolato il primo angolo si passa al suo opposto (a croce) e si effettua la regolazione sempre portandolo alla stessa distanza, e cosi per i restanti due angoli. Fatto ciò il tuo piatto sarà approssimativamente calibrato, non ancora perfettamente, ma quanto basta per il momento.
 n.b. se ti venisse il dubbio che il telaietto nero che sorregge il piatto non sia molto dritto è possibile rimediare effettuando la misurazione con una distanza assoluta, cioè poggiando la testa del calibro sulla base della stampante invece che poggiando uno dei due becchi sulla parte inferiore del telaietto. In questo caso la misura consigliata aumenta e non è più 23mm ma 34mm.
