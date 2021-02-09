@@ -45,6 +45,7 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 
 
 
+
 **Punto 1** Pre-livellamento del piatto:
 
 Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto al telaietto nero a cui è agganciato. Lo dovrai fare utilizzando un calibro (digitale o analogico vanno entrambi bene) e misurando la distanza tra piatto e telaietto. Per farlo basta posizionare i becchi del calibro in modo che poggino uno sulla superficie superiore del piatto e l'altro sulla superficie inferiore del telaietto, a "morsa" diciamo. Mi raccomando! Presta attenzione a non scalfire la superficie trattata "Ultrabase" del piatto.
