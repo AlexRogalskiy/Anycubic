@@ -24,17 +24,12 @@ Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura 
 
 **Calibrazione hardware:**
 
-1- Pre-livellamento del piatto;
-
-2- Allineamento orizzontale asse Z;
-
-3- Regolazione finecorsa Z:
-
-  3.a- Estrusore singolo;
-  
-  3.b- Doppio estrusore/stepper Z pilotati da un solo driver;
-
-4- Regolazione di fino del piatto;
+1. Pre-livellamento del piatto;
+2. Allineamento orizzontale asse Z;
+3. Regolazione finecorsa Z:
+    - Estrusore singolo;
+    - Doppio estrusore/stepper Z pilotati da un solo driver;
+4. Regolazione di fino del piatto;
 
 
 **Calibrazione software:**
