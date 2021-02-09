@@ -27,18 +27,18 @@ Andiamo quindi al sodo, ecco riassunti i 10 punti della mia personale procedura 
 1. Pre-livellamento del piatto;
 2. Allineamento orizzontale asse Z;
 3. Regolazione finecorsa Z:
-    - Estrusore singolo;
-    - Doppio estrusore/stepper Z pilotati da un solo driver;
+    3.a Estrusore singolo;
+    3.b Doppio estrusore/stepper Z pilotati da un solo driver;
 4. Regolazione di fino del piatto;
 
 
 **Calibrazione software:**
 
-5- Regolazione E-step (quantità di filo pescata);
-6- Aggiustamento flusso di estrusione (da ripetere con ogni nuovo materiale)
-6- Regolazione X-Y-Z step (accuratezza dimensionale);
-7- Regolazione Oozing e Retraction (da ripetere con ogni nuovo materiale);
-8- Ottimizzazione di velocità ed accelerazione (parametro jerk incluso);
+5. Regolazione E-step;
+6. Aggiustamento flusso di estrusione;
+7. Regolazione X-Y-Z step;
+8. Regolazione Oozing e Retraction;
+9. Ottimizzazione di velocità ed accelerazione (parametro jerk incluso);
 
 Punto 1- Pre-livellamento del piatto
 Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto al telaietto nero a cui è aggianciato. Lo dovrai fare utilizzando un calibro (digitale o analogico vanno entrambi benissimo) e misurando la distanza tra piatto e telaietto. Per farlo basta posizionare i becchi del calibro in modo che poggino uno sulla superficie superiore del piatto e l'altro sulla superficie inferiore del telaietto, a "morsa" diciamo. Mi raccomando! Presta attenzione a non scalfire la superficie trattata "Ultrabase" del piatto.
