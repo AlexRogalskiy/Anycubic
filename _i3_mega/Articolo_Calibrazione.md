@@ -28,8 +28,8 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 1. Pre-livellamento del piatto;
 2. Allineamento orizzontale asse Z;
 3. Regolazione finecorsa Z:
-  a. Estrusore singolo;
-  b. Doppio estrusore/stepper Z pilotati da un solo driver;
+ - Estrusore singolo;
+ - Doppio estrusore/stepper Z pilotati da un solo driver;
 4. Regolazione di fino del piatto;
 
 **Calibrazione software:**
@@ -47,9 +47,8 @@ Per prima cosa ti dovrai preoccupare di livellare il piatto di stampa rispetto a
 
 Agendo quindi sulla manopola dovrai cercare di portare la distanza a circa 23mm ma se hai installato 4 molle afermarket la misura può differire. Regolato il primo angolo si passa al suo opposto (a croce) e si effettua la regolazione sempre portandolo alla stessa distanza, e cosi per i restanti due angoli. Fatto ciò il tuo piatto sarà approssimativamente calibrato, non ancora perfettamente, ma quanto basta per il momento.
 n.b. se ti venisse il dubbio che il telaietto nero che sorregge il piatto non sia molto dritto è possibile rimediare effettuando la misurazione con una distanza assoluta, cioè poggiando la testa del calibro sulla base della stampante invece che poggiando uno dei due becchi sulla parte inferiore del telaietto. In questo caso la misura consigliata aumenta e non è più 23mm ma 34mm.
-*foto calibro sulla base*
 
-{% include gallery id="galleria_prova" caption="titolo_galleria" %}
+{% include figure image_path="/assets/docs/calibrazione/Foto calibro sulla base.jpg" alt="Foto calibro sulla base" caption="Foto calibro sulla base" %}
 
 Punto 2- Allineamento orizzontale asse Z
 Questo è per certo la fase di calibrazione hardware più critica, ed al tempo stesso che si riflette maggiormente sulle stampe se non eseguita come si deve. Farlo nel modo adeguato ti risparmierà un sacco di grattacapi per cui non aver fretta.
@@ -65,6 +64,8 @@ Per misurare la distanza tra questi due punti ci sono sostanzialmente due modi:
 Nient'altro sono che due blocchetti rettangolari della stessa identica misura, alti 100mm. Esistono in rete dei progetti 3D (stl) pronti da stampare di questi due blocchetti ma supponendo che la tua stampante non sia ancora così precisa, prendi un qualsiasi pezzo solido di circa quell'altezza. L'ideale sarebbe averne due, ma in caso di dubbia lunghezza (è necessaria una precisione del decimo di mm) si può fare anche con uno solo. Posiziona il tool nello stesso modo in cui posizioneresti il calibro, e poi ruota i filetti finché non avverti una piccola pressione della barra sul tool. È molto importante che la pressione sia la stessa da entrambi i lati, in quanto anche un solo scatto corrisponde ad un layer di sfasamento tra gli estremi dell'asse X
 *foto Z tools in posizione 1 e 2*
 
+{% include gallery id="galleria_prova" caption="titolo_galleria" %}
+
 * Il motivo di eseguire la procedura con i motori ON, o almeno quelli dell'asse Z, è appunto il fatto che così facendo essi saranno sempre costretti a posizionarsi in uno degli "scatti" di movimento che possono fare, e non magari a metà via tra due scatti (quando i motori sono spenti). Così non si rischia che al primo comando finiscano casualmente nello scatto "sopra" o "sotto", sballando la calibrazione. Quindi è bene assicurarti che i motori siano accesi dando un comando di spostamento Z qualsiasi prima di seguire questo punto.
 
 Punto 3- Regolazione finecorsa Z;
@@ -74,6 +75,8 @@ La procedura da seguire per questo punto è diversa a seconda che tu abbia la st
 Tornando ai finecorsa:
 *foto finecorsa sx*
 *foto finecorsa dx*
+
+{% include gallery id="galleria_prova" caption="titolo_galleria" %}
 
 3.a - Estrusore singolo
 Nella configurazione standard della Anycubic i3 mega ogni motore viaggia da sè, ed è associato al proprio pulsante finecorsa. In questo modo al comando di Home Z ogni motore smette di ruotare nel momento in cui il proprio pulsante di finecorsa è pigiato. Va da sé quindi che per mantenere l'orizzontalità dell'asse, al comando di Home Z entrambi i pulsanti di finecorsa devono cliccare contemporaneamente come fossero uno solo nel preciso momento in cui l'ugello sfiora il piatto.
