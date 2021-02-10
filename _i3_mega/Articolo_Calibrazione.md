@@ -5,7 +5,7 @@ excerpt: "Come calibrare la stampante"
 author: "Daniel Ruffato"
 
 toc: true
-toc_label: "Tavola dei contenuti"
+toc_label: "Riepilogo contenuti"
 toc_icon: "cog"
 toc_sticky: true
 
@@ -54,8 +54,8 @@ Andiamo quindi al sodo, ecco riassunti i 9 punti della mia personale procedura d
 **Calibrazione hardware:**
 
 1. Pre-livellamento del piatto;
-2. Allineamento orizzontale asse Z;
-3. Regolazione finecorsa Z:
+2. Allineamento orizzontale torri Z;
+3. Regolazione viti finecorsa:
  - Singolo estrusore;
  - Doppio estrusore/modifica asse Z unificato:
 4. Regolazione di fino del piatto;
@@ -85,7 +85,7 @@ Agendo quindi sulla manopola dovrai cercare di portare la distanza a circa 23mm 
 {% include figure image_path="/assets/docs/calibrazione/Foto calibro sulla base.jpg" alt="Foto calibro sulla base" caption="Foto calibro sulla base" %}
 
 
-# **Punto 2** Allineamento orizzontale asse Z:
+# **Punto 2** Allineamento orizzontale torri Z:
 
 Questo è per certo la fase di calibrazione hardware più critica, ed al tempo stesso che si riflette maggiormente sulle stampe se non eseguita come si deve. Farlo nel modo adeguato ti risparmierà un sacco di grattacapi per cui non aver fretta!
 
@@ -113,7 +113,7 @@ Posiziona il tool nello stesso modo in cui posizioneresti il calibro, e poi ruot
 {% include gallery id="galleria_Z sync tools" caption="Z sync tools" %}
 
 
-# **Punto 3** Regolazione finecorsa Z;
+# **Punto 3** Regolazione viti finecorsa;
 
 Bene, a questo punto avrai l'asse X (dove scorre il carrello) perfettamente parallelo al piano ma prima di procedere con l'ultimo step è necessario impostare i finecorsa sulle due torrette Z così che pigiando il tasto Z home l'ugello non rischi di dare delle brutte "testate" sul piatto, rischiando di rovinare l'Ultrabase e di scalibrare tutto.
 
@@ -121,7 +121,7 @@ La procedura da seguire per questo punto è diversa a seconda che tu abbia la st
 
 Tornando ai finecorsa:
 
-{% include gallery id="galleria_Finecorsa" caption="I finecorsa" %}
+{% include gallery id="galleria_Finecorsa" caption="Foto viti dei finecorsa" %}
 
 
 ## - **Opzione 1** Estrusore singolo:
@@ -184,10 +184,10 @@ Il primo modo è molto semplice e rudimentale. Prendi un foglio di carta bianco,
 
 ## - **Modo 2** Il file stl:
 
-Questo è un modo che va effettuato diciamo in corso d'opera. 
-Lo dovrai fare con una semplice stampa molto simile ad uno "skirt". Una volta scaricato [**questo file**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") lo dovrai aprire nel tuo slicer di fiducia (caldamente consigliato Cura. Se non ti senti confidente [**questa guida di approccio**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") fa al caso tuo) e controllare nell'anteprima che le linee siano molto vicine al bordo del piatto. Se tutto è in regola puoi caricare un qualsiasi filamento (meglio se PLA di colore bianco) e far partire la stampa. 
+Questo è un modo che prevede che gli aggiustamenti siano fatti durante la stampa. Una volta scaricato [**questo file**](https://www.thingiverse.com/thing:4757875 "Download Bed Leveling STL") lo dovrai aprire nel tuo slicer di fiducia (caldamente consigliato Cura, se non ti senti confidente [**questa guida di approccio**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") fa al caso tuo) e impostare 7-8 linee di skirt. Dopo aver controllato nell'anteprima che le linee siano molto vicine al bordo del piatto, ed aver fatto eventuali ridimensionamenti (in media è necessario ridurre il modello all'85-90% a seconda delle impostazioni dello slicer), se tutto è in regola puoi caricare un qualsiasi filamento (meglio se PLA di colore bianco) e far partire la stampa. 
+Non è necessario stampare anche i quadratini, l'importante sono le linee di skirt
 
-Man mano che l'ugello traccerà queste linee dovrai far caso a come il filamento si dispone vicino agli angoli, compensando ruotando di conseguenza le manopole per avvicinare od allontarare tra loro le linee di filamento depositato:
+Man mano che l'ugello traccerà le linee di skirt ondulate dovrai far caso a come il filamento si dispone vicino agli angoli, compensando di conseguenza ruotando le manopole per avvicinare o allontarare tra loro le linee di filamento depositato:
 
 - Se le linee sono **troppo distanti** e non si toccano tra loro, devi svitare la manopola ed avvicinare quell'angolo del piatto;
 - Se le linee **si congiungono** mantenendo la giunzione evidente, la procedura è completa;
