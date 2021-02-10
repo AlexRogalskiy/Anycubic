@@ -4,6 +4,10 @@ title: "Calibrazione Stampante 3D"
 excerpt: "Come calibrare la stampante"
 author: "Daniel Ruffato"
 
+toc: true
+toc_label: "Tavola dei contenuti"
+toc_icon: "cog"
+toc_sticky: true
 
 galleria_Foto calibro su Z:
   - url: /assets/docs/calibrazione/Foto calibro su Z 1.jpg
