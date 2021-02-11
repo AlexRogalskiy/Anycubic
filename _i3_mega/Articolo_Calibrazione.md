@@ -186,7 +186,7 @@ Il primo modo è molto semplice e rudimentale. Prendi un foglio di carta bianco,
 
 ## - **Modo 2** Il file stl:
 
-Questo è un modo che prevede che gli aggiustamenti siano fatti durante la stampa. Una volta scaricato [**questo file**](https://www.thingiverse.com/thing:4757875 "Download Bed Leveling STL") lo dovrai aprire nel tuo slicer di fiducia e impostare 7-8 linee di skirt ad una distanza di circa 7-10mm (caldamente consigliato Cura, se non ti senti confidente perchè pensi sia troppo complesso [**questa guida di approccio**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") fa per te). 
+Questo è un modo che prevede che gli aggiustamenti siano fatti durante la stampa. Una volta scaricato [**questo file**](https://www.thingiverse.com/thing:4757875 "Download Bed Leveling STL") lo dovrai aprire nel tuo slicer di fiducia, e dopo aver selezionato il profilo con altezza layer 0.2mm, impostare 7-8 linee di skirt ad una distanza di circa 7-10mm (caldamente consigliato Cura, se non ti senti confidente perchè pensi sia troppo complesso [**questa guida di approccio**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega") fa per te). 
 Dopo aver controllato nell'anteprima che le linee siano molto vicine al bordo del piatto, ed aver fatto eventuali ridimensionamenti (in media è necessario ridurre il modello all'85-90% a seconda delle impostazioni), se tutto è in regola puoi caricare un qualsiasi filamento chiaro (meglio se PLA di colore bianco/giallo) e far partire la stampa.
 
 **NOTA BENE:** Non è necessario stampare i quadratini presenti nel file, l'importante sono le linee di skirt! Per cui giunti al termine della stampa dello skirt la stampa fa fermata e se necessario fatta ripartire per ulteriori aggiustamenti (di norma sono necessarie 3-4 stampate).
@@ -200,9 +200,12 @@ Man mano che l'ugello traccerà le linee di skirt ondulate dovrai far caso a com
 
 {% include figure image_path="/assets/docs/calibrazione/Foto linee giuste.jpg" alt="Foto ugello alla giusta distanza" caption="Foto ugello alla giusta distanza" %}
 
-Finalmente la calibrazione hardware è terminata! Il consiglio finale è sicuramente quello di non allarmarti se non ottieni soddisfacenti risultati alla prima o alla seconda calibrazione. Via via acquisirai sempre più confidenza con le procedure ed arriverai ad effettuare gli step appena affrontati in non più di 20-30 minuti.
+Al termine della calibrazione puoi anche misurare con il calibro lo spessore delle linee tracciate, che dovrebbe corrispondere a 0.2mm
 
-**n.b.** se durante la stampa di prova ti accorgi che nel tratto rettilineo tra due angoli le linee non mantengono la distanza che hanno negli angoli, non temere. I piatti sono spesso e volentieri ondulati o comunque non perfettamente piani. Il problema si risolve con l'implementazione di un un sensore come il bl-touch o ad ultrasuoni, che trovi affrontati più in dettaglio nell'[**ennesimo articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega").
+**n.b.** se durante la stampa ti accorgi che nel tratto tra due angoli le linee non mantengono la distanza che hanno, non temere. I piatti sono spesso e volentieri deformati o comunque non perfettamente piani. Il problema si risolve con l'implementazione di un un sensore come il bl-touch o ad ultrasuoni, che trovi affrontati più in dettaglio nell'[**ennesimo articolo**](https://rbonghi.github.io/Anycubic/octoprint/ "Anycubic i3 mega").
+
+Finalmente la calibrazione hardware è terminata!
+Un consiglio finale è sicuramente quello di non allarmarti se non ottieni soddisfacenti risultati alla prima o alla seconda calibrazione. Via via acquisirai sempre più confidenza con le procedure ed arriverai ad effettuare gli step appena affrontati in non più di 20-30 minuti.
 
 
 
