@@ -1,7 +1,7 @@
 ---
 
 title: "Calibrazione Stampante 3D"
-excerpt: "Come calibrare la stampante"
+excerpt: "Come calibrare la stampante passo passo"
 author: "Daniel Ruffato"
 
 toc: true
